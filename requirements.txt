@@ -1,0 +1,4 @@
+Pillow>=10.0
+openpyxl>=3.1
+cryptography>=42  # apenas o Servidor Central (gera o certificado TLS na primeira execução)
+pyinstaller>=6.0  # apenas para gerar os .exe (python -m PyInstaller --clean --noconfirm <arquivo>.spec)

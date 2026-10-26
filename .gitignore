@@ -1,0 +1,26 @@
+# Build do PyInstaller (os .exe vão como anexo de Release, não no repositório)
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Instalações locais e cópias de segurança
+agente_local/
+backup_antes_seguranca/
+
+# Segredos: token e chave privada do certificado TLS. Nunca versionar.
+config.json
+config_agente.json
+*.pem
+
+# Dados pessoais (assinaturas, alertas) e logs
+*.csv
+*.csv.bak
+*.jsonl
+*.log
+*.log.*
+*.xlsx
+*.tmp
+
+# Material de marca (fonte da logo; a logo usada pelo programa já está no código e em logo.png)
+Instituto-Acqua_Novo-Logo_Horizontal-Verde.pdf
